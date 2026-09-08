@@ -1,1 +1,17 @@
-PLACEHOLDER_FOOTER
+<svg width="1200" height="120" viewBox="0 0 1200 120" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bwf" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7c3aed"/>
+      <stop offset="50%" stop-color="#2a1060"/>
+      <stop offset="100%" stop-color="#0d0618"/>
+      <animate attributeName="x1" values="0%;20%;0%" dur="10s" repeatCount="indefinite"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="120" fill="url(#bwf)"/>
+  <path fill="#a78bfa" fill-opacity="0.25" d="M0,40 C200,70 400,10 600,45 C800,80 1000,20 1200,55 L1200,0 L0,0 Z">
+    <animate attributeName="d" dur="9s" repeatCount="indefinite"
+      values="M0,40 C200,70 400,10 600,45 C800,80 1000,20 1200,55 L1200,0 L0,0 Z;
+              M0,55 C200,20 400,70 600,35 C800,10 1000,65 1200,40 L1200,0 L0,0 Z;
+              M0,40 C200,70 400,10 600,45 C800,80 1000,20 1200,55 L1200,0 L0,0 Z"/>
+  </path>
+</svg>

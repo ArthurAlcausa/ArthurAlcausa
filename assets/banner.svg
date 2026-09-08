@@ -1,1 +1,75 @@
-PLACEHOLDER_BANNER
+<svg width="1200" height="300" viewBox="0 0 1200 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d0618"/>
+      <stop offset="45%" stop-color="#2a1060"/>
+      <stop offset="100%" stop-color="#7c3aed"/>
+      <animate attributeName="x1" values="0%;15%;0%" dur="12s" repeatCount="indefinite"/>
+      <animate attributeName="y2" values="100%;80%;100%" dur="12s" repeatCount="indefinite"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="80%" cy="30%" r="60%">
+      <stop offset="0%" stop-color="#a78bfa" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#a78bfa" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="wave1" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#7c3aed" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#4c1d95" stop-opacity="0.2"/>
+    </linearGradient>
+    <linearGradient id="wave2" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#a78bfa" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#7c3aed" stop-opacity="0.1"/>
+    </linearGradient>
+    <filter id="blur"><feGaussianBlur stdDeviation="2"/></filter>
+  </defs>
+
+  <rect width="1200" height="300" fill="url(#bg)"/>
+  <rect width="1200" height="300" fill="url(#glow)"/>
+
+  <g stroke="#a78bfa" stroke-opacity="0.07">
+    <line x1="0" y1="60" x2="1200" y2="60"/><line x1="0" y1="120" x2="1200" y2="120"/>
+    <line x1="0" y1="180" x2="1200" y2="180"/><line x1="0" y1="240" x2="1200" y2="240"/>
+    <line x1="150" y1="0" x2="150" y2="300"/><line x1="300" y1="0" x2="300" y2="300"/>
+    <line x1="450" y1="0" x2="450" y2="300"/><line x1="600" y1="0" x2="600" y2="300"/>
+    <line x1="750" y1="0" x2="750" y2="300"/><line x1="900" y1="0" x2="900" y2="300"/>
+    <line x1="1050" y1="0" x2="1050" y2="300"/>
+  </g>
+
+  <path fill="url(#wave1)" d="M0,230 C200,180 400,270 600,225 C800,180 1000,255 1200,210 L1200,300 L0,300 Z">
+    <animate attributeName="d" dur="10s" repeatCount="indefinite"
+      values="M0,230 C200,180 400,270 600,225 C800,180 1000,255 1200,210 L1200,300 L0,300 Z;
+              M0,210 C200,260 400,190 600,240 C800,265 1000,195 1200,235 L1200,300 L0,300 Z;
+              M0,230 C200,180 400,270 600,225 C800,180 1000,255 1200,210 L1200,300 L0,300 Z"/>
+  </path>
+  <path fill="url(#wave2)" d="M0,255 C220,215 420,285 620,250 C820,215 1020,275 1200,245 L1200,300 L0,300 Z">
+    <animate attributeName="d" dur="14s" repeatCount="indefinite"
+      values="M0,255 C220,215 420,285 620,250 C820,215 1020,275 1200,245 L1200,300 L0,300 Z;
+              M0,240 C220,280 420,225 620,265 C820,285 1020,230 1200,260 L1200,300 L0,300 Z;
+              M0,255 C220,215 420,285 620,250 C820,215 1020,275 1200,245 L1200,300 L0,300 Z"/>
+  </path>
+
+  <g fill="#c4b5fd">
+    <circle cx="180" cy="70" r="2.5"><animate attributeName="cy" values="70;55;70" dur="6s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.9;0.2;0.9" dur="6s" repeatCount="indefinite"/></circle>
+    <circle cx="360" cy="130" r="1.8"><animate attributeName="cy" values="130;115;130" dur="8s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.6;0.1;0.6" dur="8s" repeatCount="indefinite"/></circle>
+    <circle cx="880" cy="60" r="2.2"><animate attributeName="cy" values="60;45;60" dur="7s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.8;0.2;0.8" dur="7s" repeatCount="indefinite"/></circle>
+    <circle cx="1050" cy="150" r="1.6"><animate attributeName="cy" values="150;135;150" dur="9s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.7;0.15;0.7" dur="9s" repeatCount="indefinite"/></circle>
+    <circle cx="640" cy="45" r="2"><animate attributeName="cy" values="45;30;45" dur="7.5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.85;0.25;0.85" dur="7.5s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <g transform="translate(1010,95)" filter="url(#blur)">
+    <path d="M0,-45 C22,-35 38,-32 45,-32 C45,5 32,32 0,48 C-32,32 -45,5 -45,-32 C-38,-32 -22,-35 0,-45 Z"
+      fill="none" stroke="#a78bfa" stroke-width="3">
+      <animate attributeName="stroke-opacity" values="1;0.5;1" dur="4s" repeatCount="indefinite"/>
+    </path>
+    <path d="M0,-25 L0,25 M-18,-5 L0,5 L18,-5 M-12,18 L0,10 L12,18" stroke="#c4b5fd" stroke-width="2" fill="none" stroke-linecap="round"/>
+    <circle cx="0" cy="-25" r="3.5" fill="#e9d5ff"><animate attributeName="r" values="3.5;5;3.5" dur="3s" repeatCount="indefinite"/></circle>
+    <circle cx="-18" cy="-5" r="2.5" fill="#c4b5fd"/>
+    <circle cx="18" cy="-5" r="2.5" fill="#c4b5fd"/>
+    <circle cx="0" cy="25" r="2.5" fill="#c4b5fd"/>
+  </g>
+
+  <text x="70" y="135" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="52" font-weight="800" fill="#ffffff" letter-spacing="1">Arthur Guimarães Alcausa</text>
+  <text x="72" y="185" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="24" font-weight="500" fill="#c4b5fd" letter-spacing="4">AI · CYBERSECURITY · CLOUD SECURITY
+    <animate attributeName="opacity" values="0.85;1;0.85" dur="5s" repeatCount="indefinite"/>
+  </text>
+  <text x="72" y="222" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" fill="#9f8bd4">📍 Campinas, SP — Brasil</text>
+</svg>
