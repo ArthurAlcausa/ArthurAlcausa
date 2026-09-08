@@ -1,62 +1,69 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=200&section=header&text=Arthur%20Guimar%C3%A3es%20Alcausa&fontSize=40&animation=fadeIn&fontAlignY=38&desc=Cybersecurity%20%7C%20Cloud%20Security%20%7C%20Automation&descAlignY=60&descAlign=50&fontColor=ffffff"/>
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=venom&color=0:1a0533,50:4c1d95,100:7c3aed&height=250&section=header&text=Arthur%20Guimar%C3%A3es%20Alcausa&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=40&desc=AI%20%7C%20Cybersecurity%20%7C%20Cloud%20Security&descAlignY=62&descSize=18&stroke=7c3aed&strokeWidth=1"/>
 </div>
 
 <div align="center">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=36BCF7&center=true&vCenter=true&width=600&lines=Cybersecurity+Student+%F0%9F%94%90;Red+Team+%26+Blue+Team;Cloud+Security+%7C+AWS+%7C+Azure;IA+aplicada+%C3%A0+Seguran%C3%A7a;Sempre+aprendendo+e+evoluindo" alt="Typing SVG" />
-  </a>
-</div>
-
-<div align="center">
-  <a href="https://www.linkedin.com/in/arthurguimaraesalcausa" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
-  <a href="mailto:788_arthuralcausa@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
-  </a>
-  <a href="https://github.com/arthuralcausa">
-    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-  </a>
+  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=A78BFA&center=true&vCenter=true&width=650&lines=Intelig%C3%AAncia+Artificial+aplicada+%C3%A0+Seguran%C3%A7a;Estudante+de+Cybersecurity+%40+PUC-Campinas;Red+Team+%7C+Blue+Team+%7C+Cloud;Automa%C3%A7%C3%A3o+com+Python" alt="Typing SVG"/></a>
 </div>
 
 <br>
 
-## 👨‍💻 Sobre Mim
+<div align="center">
+  <a href="https://www.linkedin.com/in/arthurguimaraesalcausa">
+    <img src="https://img.shields.io/badge/LinkedIn-Arthur_Alcausa-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+  </a>
+</div>
 
-```python
-class ArthurAlcausa:
-    def __init__(self):
-        self.nome = "Arthur Guimarães Alcausa"
-        self.localizacao = "Campinas, SP - Brasil"
-        self.formacao = "Cybersecurity @ PUC Campinas"
-        self.foco = ["Red Team", "Blue Team", "Cloud Security"]
-        self.interesses = ["IA aplicada à Segurança", "Automação", "DevSecOps"]
-        
-    def tecnologias(self):
-        return {
-            "linguagens": ["Python", "JavaScript", "Bash", "SQL", "C", "Assembly"],
-            "seguranca": ["Pentest", "Engenharia Reversa", "Threat Hunting", "Forense"],
-            "cloud": ["AWS", "Azure", "DevSecOps"],
-            "frameworks": ["ISO 27001", "NIST", "LGPD"],
-            "dev": ["HTML", "CSS", "Git", "GitHub"]
-        }
-    
-    def objetivo(self):
-        return "Construir soluções de segurança que protejam sistemas e pessoas"
+---
 
+## 👨‍💻 Sobre mim
 
-<!--
-**ArthurAlcausa/ArthurAlcausa** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+- 🎓 Estudante de **Cybersecurity (Bacharelado)** na **PUC-Campinas**, com base em **Análise e Desenvolvimento de Sistemas**
+- 🤖 Foco em **Inteligência Artificial** aplicada à detecção de ameaças, automação de defesa e análise preditiva de incidentes
+- 🔴 **Red Team:** Hacking Ético, Pentest (Web/Mobile/Redes), Engenharia Reversa e Análise de Malware
+- 🔵 **Blue Team:** Monitoramento, Resposta a Incidentes, Computação Forense e Threat Hunting
+- ☁️ **Cloud & Governança:** AWS/Azure, DevSecOps, LGPD, ISO 27001 / NIST
+- 🌎 Inglês avançado · 📍 Campinas, SP — Brasil
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 🛠️ Tecnologias & Ferramentas
+
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=python,bash,linux,kali,aws,azure,js,html,css,git,github,mysql&theme=dark"/>
+</div>
+
+---
+
+## 🎓 Certificações
+
+<div align="center">
+
+| Certificação | Emissor | Ano |
+|:---|:---|:---:|
+| Google Project Management Professional Certificate | Google | 2026 |
+| Google: Inteligência Artificial e Produtividade | Santander Open Academy | 2024 |
+| JavaScript | Rocketseat | 2024 |
+| Fundamentos de HTML e CSS | Rocketseat | 2024 |
+| O básico de Git e GitHub | Rocketseat | 2024 |
+
+</div>
+
+---
+
+## 📊 GitHub Stats
+
+<div align="center">
+  <img height="175em" src="https://github-readme-stats.vercel.app/api?username=ArthurAlcausa&show_icons=true&theme=tokyonight&hide_border=true&title_color=a78bfa&icon_color=a78bfa"/>
+  <img height="175em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ArthurAlcausa&layout=compact&theme=tokyonight&hide_border=true&title_color=a78bfa"/>
+</div>
+
+---
+
+<div align="center">
+  <i>"Usar inteligência artificial para construir uma defesa cibernética mais inteligente."</i>
+</div>
+
+<div align="center">
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:7c3aed,50:4c1d95,100:1a0533&height=100&section=footer"/>
+</div>
